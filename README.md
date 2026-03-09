@@ -29,3 +29,14 @@ O projeto foi desenvolvido com foco em **JavaScript**, **HTML semântico** e **C
 ---
 
 ## 📘 Estrutura de Arquivos
+
+posting--page/
+│
+├── index.html # Página principal com formulário e preview
+├── style.css # Estilos modernos da página
+├── main.js # Lógica de preview, fetch e criação de cards
+└── README.md # Este arquivo de documentação
+
+
+---
+
