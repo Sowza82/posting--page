@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Posting Page | SowzaTech</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Posting Page</h1>
+</header>
+
+<main class="container">
+
+  <div class="grid-50">
+
+    <!-- FORMULÁRIO -->
+    <section class="post-form">
+      <h2>Criar Post</h2>
+      <form id="form-post">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" placeholder="Digite o título" required>
+
+        <label for="conteudo">Conteúdo</label>
+        <textarea id="conteudo" rows="6" placeholder="Digite o conteúdo" required></textarea>
+
+        <button type="submit">Publicar</button>
+      </form>
+    </section>
+
+    <!-- PREVIEW -->
+    <section class="post-result">
+      <h2>Preview</h2>
+      <h3 id="renderizador-titulo">Título do post</h3>
+      <p id="renderizador-conteudo">O conteúdo aparecerá aqui conforme você digita.</p>
+    </section>
+
+  </div>
+
+  <!-- POSTS PUBLICADOS -->
+  <section class="posts-grid" id="posts-container"></section>
+
+</main>
+
+<footer>
+  <p>Projeto de prática de Front-End • SowzaTech</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
